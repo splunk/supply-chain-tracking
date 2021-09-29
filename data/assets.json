@@ -1,0 +1,73 @@
+[
+    {
+      "id":"HJR-1710-83",
+      "position": {
+        "lat": 56.653,
+        "lng": -112.222
+      },
+      "type": "store",
+      "address": "Fort Mackay, AB T0P 1C0, Canada"
+    },
+    {
+      "id":"SRH-1704-14",
+      "position": {
+        "lat": 44.501,
+        "lng": 129.514
+      },
+      "type": "store",
+      "address": "Harbin, province du Heilongjiang Harbin Chine"
+    },
+    {
+      "id":"SLM-1206-15",
+      "position": {
+        "lat": 43.709,
+        "lng": -1.245
+      },
+      "type": "factory",
+      "address": "143B Route de Soustons, 40230 Saint-Geours-de-Maremne, France"
+    },
+    {
+      "id":"ATF-0509-83",
+        "position": {
+          "lat": 49.122,
+          "lng": 6.469
+        },
+        "type": "factory",
+        "address": "46 Rue Principale, 57220 Bannay, France"
+      },
+      {
+        "id":"SRN-2609-17",
+        "position": {
+          "lat": 54.221,
+          "lng": 9.701
+        },
+        "type": "factory",
+        "address": "Nienkattbeker Schulweg 2, 24808 Jevenstedt, Germany"
+      },
+      {
+        "id":"BDF-1423-35",
+        "position": {
+          "lat": 33.588,
+          "lng": -86.858
+        },
+        "type": "factory",
+        "address": "I-22, Fultondale, AL 35068, USA"
+      },
+      {
+        "id":"NHG-9834-32",
+        "position": {
+          "lat": 38.711,
+          "lng": -82.638
+        },
+        "type": "factory",
+        "address": "15860 OH-93, Pedro, OH 45659, USA"
+      },
+      {
+        "id":"MTU-3030-07",
+        "position": {
+          "lat": 36.972,
+          "lng": 9.691
+        },
+        "type": "factory",
+        "address": "Principal Road X20, Bizerte, Tunisia"
+      }]
