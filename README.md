@@ -1,43 +1,32 @@
-# Contributing to CustomGMap
-
-## Overview
-
-The project contains a variety of packages that are published and versioned collectively. Each package lives in its own 
-directory in the `/packages` directory. Each package is self contained, and defines its dependencies in a package.json file.
-
-We use [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) and [Lerna](https://github.com/lerna/lerna) for
-managing and publishing multiple packages in the same repository.
+# Supply Chain Tracking use case dashboard (Extending the new Splunk dashboard framework for real world applications)
 
 
-## Getting Started
+## Prerequisite 
+* Install last version of [nodejs](https://nodejs.org/en/) .
+* Install last version of [Yarn](https://classic.yarnpkg.com/lang/en/docs/install) 
+* Install Splunk Enterprise locally and have $SPLUNK_HOME env variable setup.
+* In Windows environment, to avoid any file permission issues start the command prompt with "Run as Administrator" to run the commands mentioned in the [Development](#development) section.
 
-1. Clone the repo.
-2. Install yarn (>= 1.2) if you haven't already: `npm install --global yarn`.
-3. Run the setup task: `yarn run setup`.
+## Splunk Prerequisite
+* Create a new index : assets
+* index the data/assets.json file (sourcetype: _json)
 
-After this step, the following tasks will be available:
+## GMap usage
+* Before you start using the Google Maps, you need to generate an authentication key. Follow those [steps](https://developers.google.com/maps/documentation/javascript/get-api-key) to generate it.
+* Once done, open `packages/custom-g-map/src/CustomGMap.jsx` and replace `<YOUR_GMAP_KEY>` at line #134 by the generated KEY.
 
-* `start` – Run the `start` task for each project
-* `build` – Create a production bundle for all projects
-* `test` – Run unit tests for each project
-* `lint` – Run JS and CSS linters for each project
-* `format` – Run prettier to auto-format `*.js`, `*.jsx` and `*.css` files. This command will overwrite files without 
-asking, `format:verify` won't.
+# Package the app and add it to your Splunk
 
-Running `yarn run setup` once is required to enable all other tasks. The command might take a few minutes to finish.
+Use the following steps to package the Dashboard app. 
 
+Steps:
+* Run `yarn install` to install all dependencies.
+* Run `yarn run build` to build custom components.
+* Navigate to the supplier-chain-tracking app `cd packages/supplier-chain-tracking`
+* Run `yarn run link:app` to symlink the generated Application into Splunk's application directory.
+* The next step is to compile the application, in watch mode: `yarn run start`
 
-## Developer Scripts
-
-Commands run from the root directory will be applied to all packages. This is handy when working on multiple packages 
-simultaneously. Commands can also be run from individual packages. This may be better for performance and reporting when
- only working on a single package. All of the packages have similar developer scripts, but not all scripts are implemented 
- for every package. See the `package.json` of the package in question to see which scripts are available there.
-
-For more granular control of development scripts, consider using [Lerna](https://github.com/lerna/lerna) directly.
+Make sure to restart Splunk after those steps.
+Once the restart has finished, assuming your Splunk instance is listening on the default port, the app will be available at http://localhost:8000/en-US/app/supplier-chain-tracking/start
 
 
-## Code Formatting
-
-CustomGMap uses [prettier](https://github.com/prettier/prettier) to ensure consistent code formatting. It is recommended
- to [add a prettier plugin to your editor/ide](https://github.com/prettier/prettier#editor-integration).
