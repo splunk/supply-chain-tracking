@@ -20,6 +20,7 @@
 Use the following steps to package the Dashboard app. 
 
 Steps:
+* Run `yarn run setup` , it's an initialization task that will install dependencies and run a first build.
 * Run `yarn install` to install all dependencies.
 * Run `yarn run build` to build custom components.
 * Navigate to the supplier-chain-tracking app `cd packages/supplier-chain-tracking`
