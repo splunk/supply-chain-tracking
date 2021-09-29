@@ -1,0 +1,702 @@
+{
+	"visualizations": {
+        "viz_CustomMap":{
+            "type":"viz.CustomMap",
+            "options":{},
+            "dataSources":{}
+        },
+		"viz_N9iAgKRv": {
+			"type": "viz.text",
+			"options": {
+				"content": ".conf 2021",
+				"fontSize": 18,
+				"textColor": "#ececec"
+			}
+		},
+		"viz_PEO3qc7f": {
+			"type": "viz.rectangle",
+			"options": {
+				"stroke": "#161617",
+				"fillOpacity": 0.8,
+				"fill": "#161617"
+			}
+		},
+		"viz_n3lJtqBF": {
+			"type": "viz.text",
+			"options": {
+				"content": "Supplier Chain Tracking",
+				"textColor": "#ececec",
+				"fontWeight": "bold",
+				"fontSize": 28
+			}
+		},
+		"viz_Xpc8CZYR": {
+			"type": "viz.text",
+			"options": {
+				"content": "Suppliers",
+				"textColor": "#c1c1c1",
+				"fontWeight": "bold",
+				"fontSize": 14
+			}
+		},
+		"viz_08s5ycO9": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent"
+			},
+			"dataSources": {
+				"primary": "ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_MD6B4hJq": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorFontSize": 24
+			},
+			"dataSources": {
+				"primary": "ds_cH0d6xeD_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_xrLORuS7": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorFontSize": 24
+			},
+			"dataSources": {
+				"primary": "ds_gBdDor6m_ds_cH0d6xeD_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_7XHBRkeO": {
+			"type": "viz.text",
+			"options": {
+				"content": "Alerts",
+				"textColor": "#cecece",
+				"fontWeight": "light",
+				"fontSize": 12
+			}
+		},
+		"viz_mWhrjP6E": {
+			"type": "viz.text",
+			"options": {
+				"content": "In Stock",
+				"textColor": "#cecece",
+				"fontWeight": "light",
+				"fontSize": 12
+			}
+		},
+		"viz_on3aU5Vl": {
+			"type": "viz.img",
+			"options": {
+				"preserveAspectRatio": true,
+				"src": "https://i.ibb.co/DVdFjJQ/factoory.png"
+			}
+		},
+		"viz_VilZsTFK": {
+			"type": "viz.text",
+			"options": {
+				"content": "Production rate",
+				"textColor": "#cecece",
+				"fontWeight": "light",
+				"fontSize": 12
+			}
+		},
+		"viz_h0xajfA9": {
+			"type": "viz.rectangle",
+			"options": {
+				"stroke": "#161617",
+				"fillOpacity": 0.8,
+				"fill": "#161617"
+			}
+		},
+		"viz_ze7xaAnS": {
+			"type": "viz.text",
+			"options": {
+				"content": "Parcels Delivery",
+				"textColor": "#c1c1c1",
+				"fontWeight": "bold",
+				"fontSize": 14
+			}
+		},
+		"viz_EDN5T5uJ": {
+			"type": "viz.text",
+			"options": {
+				"content": "Total",
+				"textColor": "#cecece",
+				"fontWeight": "light",
+				"fontSize": 12
+			}
+		},
+		"viz_bwZPNpxy": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorFontSize": 28
+			},
+			"dataSources": {
+				"primary": "ds_T6wjjYqY_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_zh1pxenm": {
+			"type": "viz.text",
+			"options": {
+				"content": "Delayed",
+				"textColor": "#cecece",
+				"fontWeight": "light",
+				"fontSize": 12
+			}
+		},
+		"viz_u7kaBXJ6": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorFontSize": 28
+			},
+			"dataSources": {
+				"primary": "ds_bFVCvHoi_ds_T6wjjYqY_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_hI7m8pRw": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorFontSize": 28,
+				"showTrendIndicator": false,
+				"showSparkline": false
+			},
+			"dataSources": {
+				"primary": "ds_uzEy9XtX_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_jJRFlWUX": {
+			"type": "viz.img",
+			"options": {
+				"preserveAspectRatio": true,
+				"src": "https://i.ibb.co/Svm0ywM/Screen-Shot-2021-09-02-at-23-05-45.png"
+			}
+		},
+		"viz_jKeokEHO": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorFontSize": 28,
+				"showSparkline": false,
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_DAxWFGWo_ds_uzEy9XtX_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_cZ9KmYpN": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"deltaFontSize": 1,
+				"majorFontSize": 28,
+				"showTrendIndicator": false,
+				"showSparkline": false
+			},
+			"dataSources": {
+				"primary": "ds_I9NNZiTL_ds_DAxWFGWo_ds_uzEy9XtX_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u"
+			},
+			"encoding": {}
+		},
+		"viz_NM1zqmjc": {
+			"type": "viz.img",
+			"options": {
+				"preserveAspectRatio": true,
+				"src": "https://i.ibb.co/FbznZww/Screen-Shot-2021-09-02-at-23-05-35.png"
+			}
+		},
+		"viz_oe17B0F3": {
+			"type": "viz.img",
+			"options": {
+				"preserveAspectRatio": true,
+				"src": "https://i.ibb.co/xqM4pp1/Screen-Shot-2021-09-02-at-23-05-54.png"
+			}
+		},
+		"viz_na8s4ShU": {
+			"type": "viz.img",
+			"options": {
+				"preserveAspectRatio": true,
+				"src": "https://i.ibb.co/VwFmkb2/icon.png"
+			}
+		},
+		"viz_rP9etjYE": {
+			"type": "viz.img",
+			"options": {
+				"preserveAspectRatio": true,
+				"src": "https://i.ibb.co/w6Jc89V/parcel.png"
+			}
+		},
+		"viz_oTOzVWjk": {
+			"type": "viz.text",
+			"options": {
+				"content": "Count by delivery service",
+				"textColor": "#cecece",
+				"fontWeight": "light",
+				"fontSize": 12
+			}
+		}
+	},
+	"dataSources": {
+		"ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=7000\n| eval temp=(random() %1000) | eval c=1 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count(c) as c by temp span=1h \n| rename 0 as rate \n| eval rate=rate*2"
+			},
+			"name": "production rate"
+		},
+		"ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=250000 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count as power by temp span=1h | eval power=power/max(power)"
+			},
+			"name": "stocks"
+		},
+		"ds_gBdDor6m_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=_*\n| timechart count\n| eval count=count%100"
+			},
+			"name": "alerts"
+		},
+		"ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults\n| eval count=28243"
+			},
+			"name": "Copy of Copy of avions"
+		},
+		"ds_FApbn5yX_ds_gBdDor6m_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=_*\n| timechart count\n| eval count=count%100"
+			},
+			"name": "Copy of Copy of Copy of avions"
+		},
+		"ds_jfZTt03z_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=_*\n| timechart count\n| eval count=count%12"
+			},
+			"name": "Copy of avions"
+		},
+		"ds_LDkVRrFZ_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults\n| eval count=16392"
+			},
+			"name": "Copy of Copy of Copy of avions"
+		},
+		"ds_T6wjjYqY_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=25000 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count as count by temp span=1h | eval count=count/max(count)/10"
+			},
+			"name": "Delayed"
+		},
+		"ds_f0jkO6gD_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=_*\n| timechart count\n| eval count=count%1000"
+			},
+			"name": "Copy of Copy of avions"
+		},
+		"ds_AX06NeRO_ds_gBdDor6m_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=_*\n| timechart count\n| eval count=count%100"
+			},
+			"name": "Copy of Copy of Copy of avions"
+		},
+		"ds_bFVCvHoi_ds_T6wjjYqY_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=250000 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count as count by temp span=1h | eval count=count/max(count)/10"
+			},
+			"name": "parcels delivery"
+		},
+		"ds_uzEy9XtX_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=25000 | eval diff=(random() % 190000) | eval _time=now()-diff | timechart count as count by temp span=1h | eval count=count/max(count)/10"
+			},
+			"name": "count service 1"
+		},
+		"ds_DAxWFGWo_ds_uzEy9XtX_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=80000 | eval diff=(random() % 180000) | eval _time=now()-diff | timechart count as count by temp span=1h | eval count=count/max(count)/10"
+			},
+			"name": "Copy of Copy of Copy of Copy of avions"
+		},
+		"ds_I9NNZiTL_ds_DAxWFGWo_ds_uzEy9XtX_ds_4dEqDe97_ds_cH0d6xeD_ds_9ZuqjD7u": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=90000 | eval diff=(random() % 210000) | eval _time=now()-diff | timechart count as count by temp span=1h | eval count=count/max(count)*10"
+			},
+			"name": "count service 3"
+		}
+	},
+	"defaults": {
+		"dataSources": {
+			"ds.search": {
+				"options": {}
+			}
+		},
+		"visualizations": {
+			"global": {
+				"showLastUpdated": false
+			}
+		}
+	},
+	"inputs": {},
+	"layout": {
+		"type": "absolute",
+		"options": {
+			"display": "auto-scale",
+			"height": 700,
+			"showTitleAndDescription": false
+		},
+		"structure": [
+            {
+                "item":"viz_CustomMap",
+                "type":"block",
+                "position":{
+                    "x": 0,
+					"y": 0,
+					"w": 1200,
+					"h": 700
+                }
+            },
+			{
+				"item": "viz_N9iAgKRv",
+				"type": "block",
+				"position": {
+					"x": 100,
+					"y": 45,
+					"w": 150,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_PEO3qc7f",
+				"type": "block",
+				"position": {
+					"x": 910,
+					"y": 20,
+					"w": 270,
+					"h": 190
+				}
+			},
+			{
+				"item": "viz_n3lJtqBF",
+				"type": "block",
+				"position": {
+					"x": 100,
+					"y": 10,
+					"w": 410,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_Xpc8CZYR",
+				"type": "block",
+				"position": {
+					"x": 920,
+					"y": 10,
+					"w": 160,
+					"h": 30
+				}
+			},
+			{
+				"item": "viz_08s5ycO9",
+				"type": "block",
+				"position": {
+					"x": 995,
+					"y": 60,
+					"w": 100,
+					"h": 68
+				}
+			},
+			{
+				"item": "viz_MD6B4hJq",
+				"type": "block",
+				"position": {
+					"x": 925,
+					"y": 150,
+					"w": 100,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_xrLORuS7",
+				"type": "block",
+				"position": {
+					"x": 1050,
+					"y": 150,
+					"w": 120,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_7XHBRkeO",
+				"type": "block",
+				"position": {
+					"x": 1080,
+					"y": 120,
+					"w": 60,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_mWhrjP6E",
+				"type": "block",
+				"position": {
+					"x": 937,
+					"y": 120,
+					"w": 75,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_on3aU5Vl",
+				"type": "block",
+				"position": {
+					"x": 917,
+					"y": 50,
+					"w": 60,
+					"h": 60
+				}
+			},
+			{
+				"item": "viz_VilZsTFK",
+				"type": "block",
+				"position": {
+					"x": 995,
+					"y": 28,
+					"w": 100,
+					"h": 30
+				}
+			},
+			{
+				"item": "viz_h0xajfA9",
+				"type": "block",
+				"position": {
+					"x": 910,
+					"y": 220,
+					"w": 270,
+					"h": 260
+				}
+			},
+			{
+				"item": "viz_ze7xaAnS",
+				"type": "block",
+				"position": {
+					"x": 920,
+					"y": 210,
+					"w": 160,
+					"h": 30
+				}
+			},
+			{
+				"item": "viz_EDN5T5uJ",
+				"type": "block",
+				"position": {
+					"x": 1010,
+					"y": 240,
+					"w": 40,
+					"h": 30
+				}
+			},
+			{
+				"item": "viz_bwZPNpxy",
+				"type": "block",
+				"position": {
+					"x": 1080,
+					"y": 270,
+					"w": 80,
+					"h": 70
+				}
+			},
+			{
+				"item": "viz_zh1pxenm",
+				"type": "block",
+				"position": {
+					"x": 1090,
+					"y": 240,
+					"w": 60,
+					"h": 30
+				}
+			},
+			{
+				"item": "viz_u7kaBXJ6",
+				"type": "block",
+				"position": {
+					"x": 990,
+					"y": 270,
+					"w": 80,
+					"h": 70
+				}
+			},
+			{
+				"item": "viz_hI7m8pRw",
+				"type": "block",
+				"position": {
+					"x": 910,
+					"y": 430,
+					"w": 100,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_jJRFlWUX",
+				"type": "block",
+				"position": {
+					"x": 1020,
+					"y": 392,
+					"w": 60,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_jKeokEHO",
+				"type": "block",
+				"position": {
+					"x": 1000,
+					"y": 430,
+					"w": 100,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_cZ9KmYpN",
+				"type": "block",
+				"position": {
+					"x": 1080,
+					"y": 430,
+					"w": 100,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_NM1zqmjc",
+				"type": "block",
+				"position": {
+					"x": 930,
+					"y": 392,
+					"w": 60,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_oe17B0F3",
+				"type": "block",
+				"position": {
+					"x": 1100,
+					"y": 392,
+					"w": 50,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_na8s4ShU",
+				"type": "block",
+				"position": {
+					"x": 30,
+					"y": 20,
+					"w": 70,
+					"h": 70
+				}
+			},
+			{
+				"item": "viz_rP9etjYE",
+				"type": "block",
+				"position": {
+					"x": 917,
+					"y": 260,
+					"w": 60,
+					"h": 60
+				}
+			},
+			{
+				"item": "viz_oTOzVWjk",
+				"type": "block",
+				"position": {
+					"x": 970,
+					"y": 353,
+					"w": 150,
+					"h": 30
+				}
+			}
+		],
+		"globalInputs": []
+	},
+	"description": ".conf 2021",
+	"title": "Supplier Chain Tracking"
+}

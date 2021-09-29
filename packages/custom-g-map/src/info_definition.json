@@ -1,0 +1,515 @@
+{
+	"visualizations": {
+		"viz_hhiryULR": {
+			"type": "viz.rectangle",
+			"options": {
+				"fill": "#ffffff",
+				"stroke": "#ffffff"
+			}
+		},
+		"viz_0ZBrmIiC": {
+			"type": "viz.rectangle",
+			"options": {
+				"fill": "#f8be34",
+				"stroke": "#f8be34",
+				"rx": 6
+			}
+		},
+		"viz_pNabeXqM": {
+			"type": "viz.text",
+			"options": {
+				"content": "More...",
+				"textColor": "#2e2e30",
+				"fontSize": 16
+			},
+			"eventHandlers": [
+				{
+					"type": "drilldown.customUrl",
+					"options": {
+						"url": "http://bit.ly/plane_details",
+						"newTab": true
+					}
+				}
+			]
+		},
+		"viz_NmwY1m7P": {
+			"type": "viz.text",
+			"options": {
+				"content": "Details",
+				"fontWeight": "bold",
+				"textColor": "#002157",
+				"fontSize": 20
+			}
+		},
+		"viz_vF4l8Q5L": {
+			"type": "viz.text",
+			"options": {
+				"content": "ID",
+				"fontSize": 14,
+				"textColor": "#2e2e30",
+				"fontWeight": "bold"
+			}
+		},
+		"viz_s1w7tYoj": {
+			"type": "viz.text",
+			"options": {
+				"content": "Production rate",
+				"fontSize": 14,
+				"textColor": "#2e2e30",
+				"fontWeight": "bold"
+			}
+		},
+		"viz_rPdfwurj": {
+			"type": "viz.text",
+			"options": {
+				"content": "Stocks\n",
+				"fontSize": 14,
+				"textColor": "#2e2e30",
+				"fontWeight": "bold"
+			}
+		},
+		"viz_6UHhfH4W": {
+			"type": "viz.text",
+			"options": {
+				"content": "Alerts",
+				"fontSize": 14,
+				"textColor": "#2e2e30",
+				"fontWeight": "bold"
+			}
+		},
+		"viz_zYbvtaqL": {
+			"type": "viz.text",
+			"options": {
+				"content": "Delays rate",
+				"fontSize": 14,
+				"textColor": "#2e2e30",
+				"fontWeight": "bold"
+			}
+		},
+		"viz_uROPLl3S": {
+			"type": "viz.text",
+			"options": {
+				"content": "Address",
+				"fontSize": 14,
+				"textColor": "#2e2e30",
+				"fontWeight": "bold"
+			}
+		},
+		"viz_AG7BaRQW": {
+			"type": "splunk.singlevalue",
+			"options": {
+				"sparklineDisplay": "off",
+				"trendDisplay": "off",
+				"majorFontSize": 18,
+				"unit": "",
+				"majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+				"backgroundColor": "transparent"
+			},
+			"dataSources": {
+				"primary": "ds_edpaPQGe"
+			},
+			"showLastUpdated": false,
+			"context": {
+				"majorColorEditorConfig": [
+					{
+						"value": "#555555",
+						"to": 20
+					},
+					{
+						"value": "#555555",
+						"from": 20
+					}
+				]
+			}
+		},
+		"viz_cCCmotVK": {
+			"type": "splunk.singlevalue",
+			"options": {
+				"sparklineDisplay": "off",
+				"trendDisplay": "off",
+				"majorFontSize": 18,
+				"unit": "",
+				"majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+				"backgroundColor": "transparent"
+			},
+			"dataSources": {
+				"primary": "ds_ddEhPMJW_ds_edpaPQGe"
+			},
+			"showLastUpdated": false,
+			"context": {
+				"majorColorEditorConfig": [
+					{
+						"value": "#555555",
+						"to": 80
+					},
+					{
+						"value": "#555555",
+						"from": 80
+					}
+				]
+			}
+		},
+		"viz_aqgjzDmU": {
+			"type": "splunk.singlevalue",
+			"options": {
+				"sparklineDisplay": "off",
+				"trendDisplay": "off",
+				"majorFontSize": 18,
+				"unit": "",
+				"majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+				"backgroundColor": "transparent"
+			},
+			"dataSources": {
+				"primary": "ds_DCNSpTrZ_ds_ddEhPMJW_ds_edpaPQGe"
+			},
+			"showLastUpdated": false,
+			"context": {
+				"majorColorEditorConfig": [
+					{
+						"value": "#555555",
+						"to": 80
+					},
+					{
+						"value": "#555555",
+						"from": 80
+					}
+				]
+			}
+		},
+		"viz_RbVlJYew": {
+			"type": "splunk.singlevalue",
+			"options": {
+				"sparklineDisplay": "off",
+				"trendDisplay": "off",
+				"majorFontSize": 18,
+				"unit": "",
+				"majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+				"backgroundColor": "transparent"
+			},
+			"dataSources": {
+				"primary": "ds_tiyuyfAF_ds_edpaPQGe"
+			},
+			"showLastUpdated": false,
+			"context": {
+				"majorColorEditorConfig": [
+					{
+						"value": "#555555",
+						"to": 80
+					},
+					{
+						"value": "#555555",
+						"from": 80
+					}
+				]
+			}
+		},
+		"viz_0PjrJMqO": {
+			"type": "splunk.singlevalue",
+			"options": {
+				"sparklineDisplay": "off",
+				"trendDisplay": "off",
+				"backgroundColor": "transparent",
+				"majorFontSize": 16,
+				"unit": "",
+				"majorValue": "> sparklineValues | lastPoint()",
+				"trendValue": "> sparklineValues | delta(-2)",
+				"sparklineValues": "> primary | seriesByName('id')"
+			},
+			"dataSources": {
+				"primary": "ds_nvIDtxWZ_ds_ddEhPMJW_ds_edpaPQGe"
+			},
+			"showLastUpdated": false
+		},
+		"viz_2K1j094v": {
+			"type": "splunk.singlevalue",
+			"options": {
+				"backgroundColor": "transparent",
+				"majorValue": "> sparklineValues | lastPoint()",
+				"trendValue": "> sparklineValues | delta(-2)",
+				"sparklineValues": "> primary | seriesByName('address')",
+				"majorFontSize": 12,
+				"majorColor": "#708794"
+			},
+			"dataSources": {
+				"primary": "ds_aQUzI2Yh"
+			},
+			"showLastUpdated": false
+		}
+	},
+	"dataSources": {
+		"ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=7000 \n| eval id=\"$id$\"\n| eval temp=(random() %1000) | eval c=1 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count(c) as c by temp span=1h | eval rate=rate/max(rate)"
+			},
+			"name": "production rate"
+		},
+		"ds_ddEhPMJW_ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=250000 \n| eval id=\"$id$\"\n| eval diff=(random() % 110000) | eval _time=now()-diff | timechart count as power by temp span=1h | eval power=power/max(power)"
+			},
+			"name": "stocks"
+		},
+		"ds_LuX7VDQV_ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=7000\n| eval temp=(random() %1000) | eval c=1 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count(c) as c by temp span=1h | eval rate=rate/max(rate)"
+			},
+			"name": "Copy of production rate"
+		},
+		"ds_DCNSpTrZ_ds_ddEhPMJW_ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=_*\n| eval id=\"$id$\"\n| timechart count\n| eval count=count%50"
+			},
+			"name": "alerts"
+		},
+		"ds_y66cNFgS_ds_DCNSpTrZ_ds_ddEhPMJW_ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=250000 | eval diff=(random() % 110000) | eval _time=now()-diff | timechart count as power by temp span=1h | eval power=power/max(power)"
+			},
+			"name": "Copy of Copy of stocks"
+		},
+		"ds_tiyuyfAF_ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "| makeresults count=5000\n| eval id=\"$id$\"\n| eval temp=(random() %1000) | eval c=1 | eval diff=(random() % 90000) | eval _time=now()-diff | timechart count(c) as c by temp span=1h |\n rename 0 as rate |  eval rate=rate/3"
+			},
+			"name": "delay rate"
+		},
+		"ds_nvIDtxWZ_ds_ddEhPMJW_ds_edpaPQGe": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=assets id=\"$id$\"\n|  table id"
+			},
+			"name": "id"
+		},
+		"ds_aQUzI2Yh": {
+			"type": "ds.search",
+			"options": {
+				"queryParameters": {
+					"earliest": "-24h@h",
+					"latest": "now"
+				},
+				"query": "index=assets id=\"$id$\"\n|  table address"
+			},
+			"name": "get adress"
+		}
+	},
+	"defaults": {
+		"dataSources": {
+			"ds.search": {
+				"options": {}
+			}
+		},
+		"visualizations": {
+			"global": {
+				"showLastUpdated": true
+			}
+		}
+	},
+	"inputs": {},
+	"layout": {
+		"type": "absolute",
+		"options": {
+			"width": 250,
+			"height": 340,
+			"showTitleAndDescription": false
+		},
+		"structure": [
+			{
+				"item": "viz_hhiryULR",
+				"type": "block",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 250,
+					"h": 340
+				}
+			},
+			{
+				"item": "viz_0ZBrmIiC",
+				"type": "block",
+				"position": {
+					"x": 140,
+					"y": 286,
+					"w": 90,
+					"h": 37
+				}
+			},
+			{
+				"item": "viz_pNabeXqM",
+				"type": "block",
+				"position": {
+					"x": 160,
+					"y": 280,
+					"w": 70,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_NmwY1m7P",
+				"type": "block",
+				"position": {
+					"x": 8,
+					"y": -3,
+					"w": 300,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_vF4l8Q5L",
+				"type": "block",
+				"position": {
+					"x": 15,
+					"y": 31,
+					"w": 120,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_s1w7tYoj",
+				"type": "block",
+				"position": {
+					"x": 15,
+					"y": 60,
+					"w": 120,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_rPdfwurj",
+				"type": "block",
+				"position": {
+					"x": 15,
+					"y": 90,
+					"w": 120,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_6UHhfH4W",
+				"type": "block",
+				"position": {
+					"x": 15,
+					"y": 120,
+					"w": 120,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_zYbvtaqL",
+				"type": "block",
+				"position": {
+					"x": 15,
+					"y": 150,
+					"w": 120,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_uROPLl3S",
+				"type": "block",
+				"position": {
+					"x": 15,
+					"y": 180,
+					"w": 120,
+					"h": 50
+				}
+			},
+			{
+				"item": "viz_AG7BaRQW",
+				"type": "block",
+				"position": {
+					"x": 131,
+					"y": 60,
+					"w": 100,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_cCCmotVK",
+				"type": "block",
+				"position": {
+					"x": 131,
+					"y": 90,
+					"w": 100,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_aqgjzDmU",
+				"type": "block",
+				"position": {
+					"x": 131,
+					"y": 120,
+					"w": 100,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_RbVlJYew",
+				"type": "block",
+				"position": {
+					"x": 130,
+					"y": 150,
+					"w": 100,
+					"h": 40
+				}
+			},
+			{
+				"item": "viz_0PjrJMqO",
+				"type": "block",
+				"position": {
+					"x": 130,
+					"y": 32,
+					"w": 100,
+					"h": 38
+				}
+			},
+			{
+				"item": "viz_2K1j094v",
+				"type": "block",
+				"position": {
+					"x": 0,
+					"y": 210,
+					"w": 250,
+					"h": 40
+				}
+			}
+		],
+		"globalInputs": []
+	},
+	"description": "",
+	"title": "infocontent"
+}
