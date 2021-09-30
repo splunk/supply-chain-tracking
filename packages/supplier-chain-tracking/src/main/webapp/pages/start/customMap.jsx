@@ -1,5 +1,5 @@
 import React from 'react'
-import BaseVisualization from '@splunk/dashboard-visualizations/common/BaseVisualization'
+import SplunkVisualization from '@splunk/visualizations/common/SplunkVisualization'
 import CustomGMap from '@splunk/custom-g-map';
 
 const CustomMap = ({dataSources,width,height,background='transparent',title,description,options}) => 
@@ -8,11 +8,11 @@ const CustomMap = ({dataSources,width,height,background='transparent',title,desc
 };
 
 CustomMap.propTypes = {
-    ...BaseVisualization.propTypes,
+    ...SplunkVisualization.propTypes,
 };
 
 CustomMap.defaultProps={
-    ...BaseVisualization.defaultProps,
+    ...SplunkVisualization.defaultProps,
 }
 
 export default CustomMap;
