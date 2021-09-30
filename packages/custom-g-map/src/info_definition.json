@@ -1,26 +1,24 @@
 {
 	"visualizations": {
 		"viz_hhiryULR": {
-			"type": "viz.rectangle",
+			"type": "splunk.rectangle",
 			"options": {
-				"fill": "#ffffff",
-				"stroke": "#ffffff"
+				"fillColor": "#ffffff",
+				"strokeColor": "#ffffff"
 			}
 		},
 		"viz_0ZBrmIiC": {
-			"type": "viz.rectangle",
+			"type": "splunk.rectangle",
 			"options": {
-				"fill": "#f8be34",
-				"stroke": "#f8be34",
+				"fillColor": "#f8be34",
+				"strokeColor": "#f8be34",
 				"rx": 6
 			}
 		},
 		"viz_pNabeXqM": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "More...",
-				"textColor": "#2e2e30",
-				"fontSize": 16
+				"markdown": "More..."
 			},
 			"eventHandlers": [
 				{
@@ -33,66 +31,45 @@
 			]
 		},
 		"viz_NmwY1m7P": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "Details",
-				"fontWeight": "bold",
-				"textColor": "#002157",
-				"fontSize": 20
+				"markdown": "**Details**"
 			}
 		},
 		"viz_vF4l8Q5L": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "ID",
-				"fontSize": 14,
-				"textColor": "#2e2e30",
-				"fontWeight": "bold"
+				"markdown": "**ID**"
 			}
 		},
 		"viz_s1w7tYoj": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "Production rate",
-				"fontSize": 14,
-				"textColor": "#2e2e30",
-				"fontWeight": "bold"
+				"markdown": "**Production rate**"
 			}
 		},
 		"viz_rPdfwurj": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "Stocks\n",
-				"fontSize": 14,
-				"textColor": "#2e2e30",
-				"fontWeight": "bold"
+				"markdown": "**Stocks**\n"
 			}
 		},
 		"viz_6UHhfH4W": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "Alerts",
-				"fontSize": 14,
-				"textColor": "#2e2e30",
-				"fontWeight": "bold"
+				"markdown": "**Alerts**"
 			}
 		},
 		"viz_zYbvtaqL": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "Delays rate",
-				"fontSize": 14,
-				"textColor": "#2e2e30",
-				"fontWeight": "bold"
+				"markdown": "**Delays rate**"
 			}
 		},
 		"viz_uROPLl3S": {
-			"type": "viz.text",
+			"type": "splunk.markdown",
 			"options": {
-				"content": "Address",
-				"fontSize": 14,
-				"textColor": "#2e2e30",
-				"fontWeight": "bold"
+				"markdown": "**Address**"
 			}
 		},
 		"viz_AG7BaRQW": {
@@ -372,7 +349,7 @@
 				"type": "block",
 				"position": {
 					"x": 160,
-					"y": 280,
+					"y": 290,
 					"w": 70,
 					"h": 50
 				}
