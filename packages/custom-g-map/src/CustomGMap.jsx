@@ -133,7 +133,7 @@ export default class CustomGMap extends Component {
 
     return (
         <MyMapComponent
-          googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBog6IFkB9qiuXFjc0DAyLq7x6cuvShJxs"
+          googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=<YOUR_KEY_HERE>"
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `calc(100vh - 10px)` }} />}
           mapElement={<div style={{ height: `100%` }} />}
