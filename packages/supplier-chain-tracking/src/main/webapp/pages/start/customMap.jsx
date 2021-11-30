@@ -4,7 +4,7 @@ import CustomGMap from '@splunk/custom-g-map';
 
 const CustomMap = ({dataSources,width,height,background='transparent',title,description,options}) => 
 {
-    return(<CustomGMap/>);
+    return(<CustomGMap dataSources={dataSources}/>);
 };
 
 CustomMap.propTypes = {

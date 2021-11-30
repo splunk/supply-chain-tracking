@@ -3,7 +3,9 @@
 		"viz_CustomMap": {
 			"type": "splunk.CustomMap",
 			"options": {},
-			"dataSources": {}
+			"dataSources": {
+				"primary": "ds_9ZuqjD7u"
+			}
 		},
 		"viz_N9iAgKRv": {
 			"type": "splunk.markdown",
