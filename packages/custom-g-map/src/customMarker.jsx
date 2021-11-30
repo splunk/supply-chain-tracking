@@ -10,6 +10,7 @@ import { defaultTheme, getThemeOptions } from '@splunk/splunk-utils/themes';
 import { DashboardContextProvider} from "@splunk/dashboard-context";
 import info_definition from './info_definition.json'
 import { Component } from "react";
+import SingleValue from '@splunk/visualizations/SingleValue';
 
 
 const themeProviderSettings = getThemeOptions(defaultTheme() || 'enterprise');
@@ -59,9 +60,10 @@ class CustomMarker extends Component{
                 }
             } = this;
 
+
             return (
-                
-                <Marker onClick={onMarkerClick} {...props}>
+                <>
+                <Marker label={this.props.data && (this.props.data.columns[1][0])} onClick={onMarkerClick} {...props}>
                     {infoVisible && (
                         <InfoWindow onCloseClick={onCloseInfo}>
                             <SplunkThemeProvider {...themeProviderSettings}>
@@ -78,6 +80,8 @@ class CustomMarker extends Component{
                         </InfoWindow>
                     )}
                 </Marker>
+               
+                </>
             )
         }
 }
