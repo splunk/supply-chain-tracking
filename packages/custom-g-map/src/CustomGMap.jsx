@@ -109,7 +109,8 @@ const MyMapComponent = withScriptjs(
             icon={{
               url: mark.type,
               anchor: new google.maps.Point(1, 1),
-              scaledSize: new google.maps.Size(50, 50)
+              scaledSize: new google.maps.Size(50, 50),
+              labelOrigin: new google.maps.Point(25, -10)
             }}></CustomMarker></>
         )
       })};

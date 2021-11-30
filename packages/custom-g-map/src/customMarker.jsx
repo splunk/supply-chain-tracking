@@ -63,7 +63,7 @@ class CustomMarker extends Component{
 
             return (
                 <>
-                <Marker label={this.props.data && (this.props.data.columns[1][0])} onClick={onMarkerClick} {...props}>
+                <Marker label={this.props.data && ({text: "Widgets Made: " + this.props.data.columns[1][0], color: "white", fontSize:"10px"})} onClick={onMarkerClick} {...props}>
                     {infoVisible && (
                         <InfoWindow onCloseClick={onCloseInfo}>
                             <SplunkThemeProvider {...themeProviderSettings}>
