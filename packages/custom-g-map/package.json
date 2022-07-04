@@ -22,7 +22,7 @@
   "dependencies": {
     "@splunk/dashboard-context": "^23.1.0",
     "@splunk/dashboard-core": "^23.1.0",
-    "@splunk/dashboard-presets": "^23.1.0",
+    "@splunk/dashboard-presets": "^24.8.0",
     "@splunk/react-ui": "^4.2.0",
     "@splunk/themes": "^0.8.0",
     "@splunk/visualization-context": "^23.3.0",
