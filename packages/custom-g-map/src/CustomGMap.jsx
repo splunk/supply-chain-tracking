@@ -6,7 +6,7 @@ import store from './store.png';
 import CustomMarker from './customMarker';
 import MapStyleDark from './mapstyle.json';
 
-const API_KEY = 'AIzaSyDVYVHYYcRwAgiEBe9vgQnt83Ic1mQ1cAw';
+const API_KEY = '';
 
 function uuidv4() {
     return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
