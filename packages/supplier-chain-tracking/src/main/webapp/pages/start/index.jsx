@@ -1,30 +1,28 @@
 import React from 'react';
 import layout from '@splunk/react-page';
 import { SplunkThemeProvider } from '@splunk/themes';
-import { defaultTheme, getThemeOptions } from '@splunk/splunk-utils/themes';
-import DashboardCore, { themes as dashboardCoreThemes } from '@splunk/dashboard-core';
+import DashboardCore from '@splunk/dashboard-core';
 import EnterprisePreset from '@splunk/dashboard-presets/EnterprisePreset';
-import definition from "./definition.json"
 import EnterpriseViewOnlyPreset from '@splunk/dashboard-presets/EnterpriseViewOnlyPreset';
-import { DashboardContextProvider} from "@splunk/dashboard-context";
-import CustomMap from "./customMap";
-import AbsoluteLayoutViewer from '@splunk/dashboard-layouts/AbsoluteLayoutViewer';
+import { DashboardContextProvider } from '@splunk/dashboard-context';
+import CustomMap from './customMap';
+import definition from './definition.json';
 
 const themeToVariant = {
     enterprise: { colorScheme: 'light', family: 'enterprise' },
     enterpriseDark: { colorScheme: 'dark', family: 'enterprise' },
     prisma: { colorScheme: 'dark', family: 'prisma' },
-};
+}; 
 
 const customPreset = {
     ...EnterprisePreset,
-    visualizations:{
+    visualizations: {
         ...EnterpriseViewOnlyPreset.visualizations,
-        'splunk.CustomMap':CustomMap,
-    }
-}
+        'splunk.CustomMap': CustomMap,
+    },
+};
 layout(
-    <SplunkThemeProvider {...themeToVariant.enterpriseDark}>
+    <SplunkThemeProvider {...themeToVariant.prisma}>
         <DashboardContextProvider>
             <DashboardCore
                 width="100%"
