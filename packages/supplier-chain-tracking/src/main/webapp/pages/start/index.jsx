@@ -23,12 +23,14 @@ const customPreset = {
 };
 layout(
     <SplunkThemeProvider {...themeToVariant.prisma}>
-        <DashboardContextProvider>
+        <DashboardContextProvider
+          preset={customPreset}
+          initialDefinition={definition}
+        >
             <DashboardCore
                 width="100%"
                 height="100%"
-                preset={customPreset}
-                definition={definition}
+                
             />
         </DashboardContextProvider>
     </SplunkThemeProvider>,
