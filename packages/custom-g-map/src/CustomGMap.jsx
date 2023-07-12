@@ -137,7 +137,7 @@ export default class CustomGMap extends Component {
                 loadingElement={<div style={{ height: `100%` }} />}
                 containerElement={<div style={{ height: `calc(100vh - 10px)` }} />}
                 mapElement={<div style={{ height: `100%` }} />}
-                data={this.props.dataSources.primary.data}
+                data={this.props.dataSources?.primary?.data}
             />
         );
     }
