@@ -1708,32 +1708,45 @@
     hash-it "^5.0.0"
     lodash "^4.17.21"
 
-"@splunk/dashboard-event-handlers@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-event-handlers/-/dashboard-event-handlers-26.0.0.tgz#8df84b64f8f3864ae77293f1d2c11700c6083cfc"
-  integrity sha512-0Vxk3/G8oacBZ79V7LpxUgunKuWlx3Zm+IbcvAGRm8Gf8I4zVNdmQn17I/GC4PhI1swO3wWkbtSVGG1xLOoTDQ==
+"@splunk/dashboard-definition@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-definition/-/dashboard-definition-26.0.1.tgz#9988f0b655be050cd80eaac1cf0450c241d50b42"
+  integrity sha512-dlDNalGjI/cXILiJwZ9SRQmgFpHTbGADju8O5TGeWNw2mZAJMKUaXqiFLlIC9tNNEJqg8ZSJyuaDK1+QY4rUDw==
   dependencies:
-    "@splunk/dashboard-utils" "^26.0.0"
+    "@splunk/dashboard-utils" "^26.0.1"
+    "@splunk/dashboard-validation" "^26.0.1"
+    "@splunk/ui-utils" "^1.4.0"
+    ajv "^8.5.0"
+    fast-json-patch "^3.1.1"
+    hash-it "^5.0.0"
+    lodash "^4.17.21"
 
-"@splunk/dashboard-icons@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-icons/-/dashboard-icons-26.0.0.tgz#7bdd8c0da659a7b878d0142a3983fce101f0ddc9"
-  integrity sha512-UabmBTXBXn9SFvJVXPMikTwQXrfbDQwdz7A1lK/HJKxVFxVZKN5ErkUzELK6am4ml9cerdMXVnZvrn8K3PioTQ==
+"@splunk/dashboard-event-handlers@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-event-handlers/-/dashboard-event-handlers-26.0.1.tgz#86634013b50be7d6a61f0982dc507cc6017c0a23"
+  integrity sha512-0hr2yogNcBajL29Y2YzgaSkrR9rekyVwTCuWBaP90ycpzk7LRcH/oR0qKwdkrawpbIeYH3IMYRgU221kz5gvQQ==
   dependencies:
-    "@splunk/dashboard-utils" "^26.0.0"
+    "@splunk/dashboard-utils" "^26.0.1"
+
+"@splunk/dashboard-icons@^26.0.0", "@splunk/dashboard-icons@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-icons/-/dashboard-icons-26.0.1.tgz#b1151d2db861ff4717022e3379e7e9375e60ccf1"
+  integrity sha512-dGjN34xMNTOsPUDgmOAWwSPHzjD6jYfIzGWmL6u59HWcXkf6HzRNI0Qs67sdHr5/qA5qJ9SaD0ZmFOIqxJfK+Q==
+  dependencies:
+    "@splunk/dashboard-utils" "^26.0.1"
     "@splunk/react-icons" "^4.0.1"
     "@splunk/ui-utils" "^1.4.0"
     prop-types "^15.7.2"
 
-"@splunk/dashboard-inputs@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-inputs/-/dashboard-inputs-26.0.0.tgz#11eb426dbb39c01b2c7f983f61586aa147811bcd"
-  integrity sha512-x629jkrulxRjWq2ILWZDH+c6tENDirCSQWILPhEdilLlsu6rpi3iflNuXL/7XGXF5cylqqaVYLWUjC+PdD7AUQ==
+"@splunk/dashboard-inputs@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-inputs/-/dashboard-inputs-26.0.1.tgz#aa489b6392443da94315b267c07cfe2e56529300"
+  integrity sha512-r9I9MFIIPf5vOS9kwj02Ia4oc6ZKIBoJHNd6n/meLVmw3/naJJmKSUGdFmeq4pS9tdk93S91VSMRRkubjrJVCA==
   dependencies:
-    "@splunk/dashboard-icons" "^26.0.0"
-    "@splunk/dashboard-telemetry" "^26.0.0"
-    "@splunk/dashboard-ui" "^26.0.0"
-    "@splunk/dashboard-utils" "^26.0.0"
+    "@splunk/dashboard-icons" "^26.0.1"
+    "@splunk/dashboard-telemetry" "^26.0.1"
+    "@splunk/dashboard-ui" "^26.0.1"
+    "@splunk/dashboard-utils" "^26.0.1"
     "@splunk/moment" "^0.6.1"
     "@splunk/react-icons" "^4.0.1"
     "@splunk/react-time-range" "^9.1.1"
@@ -1749,17 +1762,17 @@
     memoize-one "^5.2.1"
     prop-types "^15.7.2"
 
-"@splunk/dashboard-layouts@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-layouts/-/dashboard-layouts-26.0.0.tgz#299dfc0369c9da84f7746df5af5288a5e4fc635f"
-  integrity sha512-BnfBNswSoSaBEOoVODgWLu2/7PGDt6C7o3NiroYWG2J8ra3K3Wv+8NaUCyENpyFrEwhEK/LI85+EtNa+vTBNTg==
+"@splunk/dashboard-layouts@^26.0.0", "@splunk/dashboard-layouts@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-layouts/-/dashboard-layouts-26.0.1.tgz#92565fd1615b129bb808e4d42a3d17b27c35b2fc"
+  integrity sha512-qmEt7pr/RwMxm2f0Nqy9mCTQU/fMakPzttvJ1gkc49HnlsQSlpepfL7B3qJwLD8NYlUtcoSobcyAF0VRIif8IQ==
   dependencies:
     "@dnd-kit/core" "^6.0.5"
-    "@splunk/dashboard-definition" "^26.0.0"
-    "@splunk/dashboard-state" "^26.0.0"
-    "@splunk/dashboard-telemetry" "^26.0.0"
-    "@splunk/dashboard-ui" "^26.0.0"
-    "@splunk/dashboard-utils" "^26.0.0"
+    "@splunk/dashboard-definition" "^26.0.1"
+    "@splunk/dashboard-state" "^26.0.1"
+    "@splunk/dashboard-telemetry" "^26.0.1"
+    "@splunk/dashboard-ui" "^26.0.1"
+    "@splunk/dashboard-utils" "^26.0.1"
     "@splunk/react-icons" "^4.0.1"
     "@splunk/themes" "^0.16.0"
     "@splunk/ui-utils" "^1.4.0"
@@ -1773,18 +1786,18 @@
     rxjs "^5.5.12"
 
 "@splunk/dashboard-presets@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-presets/-/dashboard-presets-26.0.0.tgz#d3a381b9856e7962b6f6bb9dfb8fd55d8c581ecd"
-  integrity sha512-/vE2VWu5trdz1g2d7es0TdUphzAaEHiD49yglRzmeWHPl5wwEgea96GYvyfci8/Xy8Cwl4anM+nYEfGePloG9A==
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-presets/-/dashboard-presets-26.0.1.tgz#ff3469587aa9c6c3cc6af534f59cf6fbc6238d1a"
+  integrity sha512-O+JSFD3JGVwIedEhG6kN1Wg7GjojOPJSttGm7GJpPGXh9HUyet+HgL6vHZ0J9hd/cVSM4f9Viy/2Rko1jkd7oQ==
   dependencies:
-    "@splunk/dashboard-event-handlers" "^26.0.0"
-    "@splunk/dashboard-icons" "^26.0.0"
-    "@splunk/dashboard-inputs" "^26.0.0"
-    "@splunk/dashboard-layouts" "^26.0.0"
-    "@splunk/dashboard-ui" "^26.0.0"
-    "@splunk/dashboard-utils" "^26.0.0"
+    "@splunk/dashboard-event-handlers" "^26.0.1"
+    "@splunk/dashboard-icons" "^26.0.1"
+    "@splunk/dashboard-inputs" "^26.0.1"
+    "@splunk/dashboard-layouts" "^26.0.1"
+    "@splunk/dashboard-ui" "^26.0.1"
+    "@splunk/dashboard-utils" "^26.0.1"
     "@splunk/dashboard-visualizations" "^25.9.0"
-    "@splunk/datasources" "^26.0.0"
+    "@splunk/datasources" "^26.0.1"
     "@splunk/react-icons" "^4.0.1"
     "@splunk/ui-utils" "^1.4.0"
     "@splunk/visualization-icons" "^25.9.0"
@@ -1817,6 +1830,19 @@
     react-redux "^8.0.5"
     redux-saga "^0.16.2"
 
+"@splunk/dashboard-state@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-state/-/dashboard-state-26.0.1.tgz#b0acff6523bc5fa64ae1c7c4dbc6b0569bf445a8"
+  integrity sha512-W3Cb+gWGF3gObHOuiiZs98PjdV5339NxYHQ6jyV7L1R5OY7rVYVhbdTY3wcNyU5WlUIinl1Gtskm+Ec1GP4kmg==
+  dependencies:
+    "@reduxjs/toolkit" "^1.9.4"
+    "@splunk/dashboard-definition" "^26.0.1"
+    "@splunk/dashboard-utils" "^26.0.1"
+    "@splunk/ui-utils" "^1.4.0"
+    lodash "^4.17.21"
+    react-redux "^8.0.5"
+    redux-saga "^0.16.2"
+
 "@splunk/dashboard-telemetry@^26.0.0":
   version "26.0.0"
   resolved "https://registry.yarnpkg.com/@splunk/dashboard-telemetry/-/dashboard-telemetry-26.0.0.tgz#17f7a000bf30b7158316d877c675b7be906817b3"
@@ -1825,16 +1851,24 @@
     "@splunk/dashboard-utils" "^26.0.0"
     lodash "^4.17.21"
 
-"@splunk/dashboard-ui@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-ui/-/dashboard-ui-26.0.0.tgz#eac6913a98ead506826568176a2bf2451790c84e"
-  integrity sha512-7RfRYGfdDkZhVcu/Fb0wlzyKvik1d0INad91GAjWwA7SO+QjOhSngipaeVedBYMfYDjSzeJ1+ZIwbxf8r1Eg3w==
+"@splunk/dashboard-telemetry@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-telemetry/-/dashboard-telemetry-26.0.1.tgz#6ecb477374f96edf2b79988a137c82bfe3734629"
+  integrity sha512-fK91RBVPIQzBlMkp7XZFcCmcvgDXsl1c+Keku+As6MQkG+semU7WI1jvX6SW02d7lSDn0YcDjbYmQ02rhZH08w==
   dependencies:
-    "@splunk/dashboard-definition" "^26.0.0"
-    "@splunk/dashboard-icons" "^26.0.0"
-    "@splunk/dashboard-telemetry" "^26.0.0"
-    "@splunk/dashboard-utils" "^26.0.0"
-    "@splunk/datasource-utils" "^26.0.0"
+    "@splunk/dashboard-utils" "^26.0.1"
+    lodash "^4.17.21"
+
+"@splunk/dashboard-ui@^26.0.0", "@splunk/dashboard-ui@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-ui/-/dashboard-ui-26.0.1.tgz#f5c8215798488594d69244338a3805ce91428628"
+  integrity sha512-lVgFi1/ThN8w46+fItukye6zYJsjyrC1DUTW7h4Kw3zeCKpG10LJKIhlOC0GgrJg7B4DRYdnrrz9nKEw5AZ+JA==
+  dependencies:
+    "@splunk/dashboard-definition" "^26.0.1"
+    "@splunk/dashboard-icons" "^26.0.1"
+    "@splunk/dashboard-telemetry" "^26.0.1"
+    "@splunk/dashboard-utils" "^26.0.1"
+    "@splunk/datasource-utils" "^26.0.1"
     "@splunk/moment" "^0.6.1"
     "@splunk/react-icons" "^4.0.1"
     "@splunk/react-search" "^4.0.1"
@@ -1850,10 +1884,10 @@
     resize-observer-polyfill "^1.5.1"
     tinycolor2 "^1.4.1"
 
-"@splunk/dashboard-utils@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/dashboard-utils/-/dashboard-utils-26.0.0.tgz#283bed8e3f0476f7d78a02cce433411791dd997f"
-  integrity sha512-1HPzO1pSyxCmXQz8uTuGusl24A2LiOXY1EpMP7tE9TWfQpMA7YRyl59DRxSEq9A6Uw5Zf2rI7/Mii/7m/P8Ugg==
+"@splunk/dashboard-utils@^26.0.0", "@splunk/dashboard-utils@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-utils/-/dashboard-utils-26.0.1.tgz#393e185809f672c6c70a4d81caa7ece17ed43412"
+  integrity sha512-xpIYS3Rxj6QeONUdvH4Azu78RSgmW5RzvRS6AG+fBboiyMbHVDepKmKn7zirxn/U3mRqNjkifyQ0FfcpGtKutw==
   dependencies:
     "@splunk/moment" "^0.6.1"
     "@splunk/splunk-utils" "^2.3.2"
@@ -1869,6 +1903,14 @@
   version "26.0.0"
   resolved "https://registry.yarnpkg.com/@splunk/dashboard-validation/-/dashboard-validation-26.0.0.tgz#c961e894679ace5cf18355681c99f50ac28f0554"
   integrity sha512-/RyUR9FaiBkC4v2l9AFF1pPLno66/zgftIRXBqRCv/R/xoha2ebH5uew8Zxhran7Akz3J9KohD2Gmg52QuUkjA==
+  dependencies:
+    "@splunk/ui-utils" "^1.4.0"
+    ajv "^8.5.0"
+
+"@splunk/dashboard-validation@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/dashboard-validation/-/dashboard-validation-26.0.1.tgz#fcda3e00e1d0180ccca007d7ecc929bc15dc90c1"
+  integrity sha512-mle2JDZzAaL2e6ax2ITUJhcv9VCDmxThKDBCZrUX7ZpuqifL0MVXVJD67n4o6caZHHTj13pvgzrZ92go3R89SA==
   dependencies:
     "@splunk/ui-utils" "^1.4.0"
     ajv "^8.5.0"
@@ -1915,14 +1957,22 @@
     "@splunk/dashboard-utils" "^26.0.0"
     lodash "^4.17.21"
 
-"@splunk/datasources@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@splunk/datasources/-/datasources-26.0.0.tgz#4188c9f6dac6d108224ed9029ad6e3937f95bfd9"
-  integrity sha512-YfHMFfcMMb7P+7Eo3ArqYOaO/Qx/ELNDpLbHlxt5qx5fixmI+bhgVz1ecXzTDJh5kEXIXmD4JqCGIe0sA2s37w==
+"@splunk/datasource-utils@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/datasource-utils/-/datasource-utils-26.0.1.tgz#1dacb88effd2ed9c870f17e976ee7269f7c5b7c9"
+  integrity sha512-kxbMVW92wERjH6INsbAclBFOP3T9H5oKKlkGobYASyw8hNsmz6KnCfhsC0RQXXzsGnLRl8pMYYMoq+7Fm5ftEQ==
   dependencies:
-    "@splunk/dashboard-definition" "^26.0.0"
-    "@splunk/dashboard-utils" "^26.0.0"
-    "@splunk/datasource-utils" "^26.0.0"
+    "@splunk/dashboard-utils" "^26.0.1"
+    lodash "^4.17.21"
+
+"@splunk/datasources@^26.0.0", "@splunk/datasources@^26.0.1":
+  version "26.0.1"
+  resolved "https://registry.yarnpkg.com/@splunk/datasources/-/datasources-26.0.1.tgz#e500e98366651752889d363be87b2e2e9426376c"
+  integrity sha512-SZ7dAQ9cGX1KVcAvsDCIiNrbBcboyCtefGkfTVhzCqfSoj0bWarRsV+uzgNENHnDny2YAY2E31hhxQNhDUzj3w==
+  dependencies:
+    "@splunk/dashboard-definition" "^26.0.1"
+    "@splunk/dashboard-utils" "^26.0.1"
+    "@splunk/datasource-utils" "^26.0.1"
     "@splunk/moment" "^0.6.1"
     "@splunk/search-job" "^2.0.1"
     "@splunk/splunk-utils" "^2.3.2"
@@ -1986,20 +2036,7 @@
     prop-types "^15.6.0"
     react-is "^16.10.0"
 
-"@splunk/react-icons@^3.0.1", "@splunk/react-icons@^3.1.0", "@splunk/react-icons@^3.2.0", "@splunk/react-icons@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@splunk/react-icons/-/react-icons-3.3.0.tgz#08fc2b15866fed0db4ee45fcbf961157c2ec20a5"
-  integrity sha512-w/0sD0YBX2Zui1GtgLPXNEB83dda1XQI1DYK5aNJU3F+qlzPdbFmPu7jEuM/FQG/XUSgT4t8b3i54jWs/O7GYQ==
-  dependencies:
-    "@splunk/ui-utils" "^1.5.1"
-    "@types/lodash" "^4.14.156"
-    "@types/react" "^16.9.38"
-    "@types/react-dom" "^16.9.8"
-    "@types/styled-components" "^5.1.0"
-    lodash "^4.17.14"
-    prop-types "^15.6.2"
-
-"@splunk/react-icons@^3.3.1":
+"@splunk/react-icons@^3.0.1", "@splunk/react-icons@^3.1.0", "@splunk/react-icons@^3.2.0", "@splunk/react-icons@^3.3.0", "@splunk/react-icons@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@splunk/react-icons/-/react-icons-3.3.1.tgz#091ba1ac5716fe7db99eca8b676a51655001e518"
   integrity sha512-HSDvvBe17u+/9aOG51uhrmATfLaAo/w5gkW2/32Ft2rK3ylRga6oBoa3LmvaYRc0Wo4cS6fAUgYwZD0swffbQQ==
@@ -2342,15 +2379,7 @@
     "@splunk/ui-utils" "^1.5.0"
     lodash "^4.17.19"
 
-"@splunk/ui-utils@^1.2.1", "@splunk/ui-utils@^1.4.0", "@splunk/ui-utils@^1.5.0", "@splunk/ui-utils@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@splunk/ui-utils/-/ui-utils-1.5.1.tgz#68e9430607a6fd8843a26c5768eee2ebcf304611"
-  integrity sha512-EK+11WafNyiIb0Ormh+ygVTpxQHqPKBk8yE7FcrSpCvlE4i/V1L/RpNYhUcf8VRXXFP165c5lGdtblz8+0A/1g==
-  dependencies:
-    keycode "^2.1.9"
-    lodash "^4.17.21"
-
-"@splunk/ui-utils@^1.5.2", "@splunk/ui-utils@^1.6.0":
+"@splunk/ui-utils@^1.2.1", "@splunk/ui-utils@^1.4.0", "@splunk/ui-utils@^1.5.0", "@splunk/ui-utils@^1.5.1", "@splunk/ui-utils@^1.5.2", "@splunk/ui-utils@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@splunk/ui-utils/-/ui-utils-1.6.0.tgz#66576bdf80830fb0ec8b0f9e48031ce61eb54e7c"
   integrity sha512-6uMStGhXno5LluvKZtO34K1LO50T6m9hgoC2FvQ5KEtFLz1MID8XkW3vLjh4zcxU/7ntgQBAlteBLRqi38AF7A==
